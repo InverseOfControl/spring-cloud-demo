@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:base="http://base.webservice.ctsh.com">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <base:IfService>
+            <base:ifUser>test</base:ifUser>
+            <base:ifPass>test</base:ifPass>
+            <base:ifCode>QueryAdjRecord</base:ifCode>
+            <base:ifEvent></base:ifEvent>
+            <base:info>
+                <![CDATA[<QueryAdjRecord>
+                 <request>
+                 <AccountNbr>18901890898</AccountNbr>
+                  <Date>201809</Date>
+                 </request>
+                </QueryAdjRecord>]]>
+            </base:info>
+            <base:ifFull/>
+        </base:IfService>
+    </soapenv:Body>
+</soapenv:Envelope>

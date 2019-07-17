@@ -1,0 +1,5 @@
+
+<ns2:soapenv:Envelope xmlns:ns2="xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/">
+    <id>10001</id>
+    <name>Spain</name>
+</ns2:soapenv:Envelope>

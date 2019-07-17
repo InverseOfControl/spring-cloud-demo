@@ -1,0 +1,4 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.gaohx.springcloud.practice.config.MyBootstrapConfiguration,\
+com.gaohx.springcloud.practice.config.CustomPropertySourceLocator
+
