@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gaohx.springcloud.practice</groupId>
-    <artifactId>eureka</artifactId>
+    <artifactId>spring-cloud-hystrix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka</name>
+    <name>spring-cloud-hystrix</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
@@ -21,6 +21,7 @@
     </properties>
 
     <modules>
+        <module>hystrix-client</module>
         <module>hystrix-eureka</module>
         <module>hystrix-provider</module>
     </modules>
