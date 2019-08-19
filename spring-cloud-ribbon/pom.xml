@@ -17,6 +17,8 @@
 
     <modules>
         <module>spring-cloud-ribbon-eureka</module>
+        <module>spring-cloud-ribbon-client</module>
+        <module>spring-cloud-ribbon-server</module>
     </modules>
 
 </project>
